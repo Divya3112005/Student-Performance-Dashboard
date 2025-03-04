@@ -1,0 +1,78 @@
+.dashboard-container {
+    
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile-section {
+    background: #af83cc;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+#performace-chart{
+    color: orange;
+}
+  
+  .profile-section h2 {
+    margin: 0;
+  }
+  
+  .performance-section, 
+  .assignments-section, 
+  .achievements-section {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .performance-section h3,
+  .assignments-section h3,
+  .achievements-section h3 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .assignments-section p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .achievements-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .achievements-section li {
+    background: #007bff;
+    color: white;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 600px) {
+    .dashboard-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .profile-section, 
+    .performance-section, 
+    .assignments-section, 
+    .achievements-section {
+      padding: 15px;
+    }
+  }
+  
